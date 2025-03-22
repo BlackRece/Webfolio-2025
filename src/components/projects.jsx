@@ -1,10 +1,10 @@
 import ProjectImage1 from '@/images/projects/COD_Mod_250x250.png';
-import ProjectImage2 from '@/images/projects/Codeweavers_Logo.png';
+import ProjectImage2 from '@/images/projects/RayTracer_250x250.png';
 import ProjectImage3 from '@/images/projects/FlappyBird_NN_762x692.png';
 import ProjectImage4 from '@/images/projects/LazAR-Tag_Promo_250x250.png';
 import ProjectImage5 from '@/images/projects/Midnight Harvest poster.png';
 import ProjectImage6 from '@/images/projects/MineSweeper_250x189.png';
-import ProjectImage7 from '@/images/projects/RayTracer_250x250.png';
+import ProjectImage7 from '@/images/projects/Codeweavers_Logo.png';
 import ProjectImage8 from '@/images/projects/RefactaMasta_250x250.png';
 import Image from "next/image";
 
@@ -16,9 +16,9 @@ const projects = [
         image: ProjectImage1,
     },
     {
-        name: 'Project 2',
+        name: 'RayTracer',
         info: 'Brief project description',
-        url: 'https://github.com/user/project2',
+        url: 'https://github.com/BlackRece/RayTracer',
         image: ProjectImage2,
     },
     {
