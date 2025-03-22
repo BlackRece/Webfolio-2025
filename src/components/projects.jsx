@@ -1,6 +1,6 @@
 import ProjectImage1 from '@/images/projects/COD_Mod_250x250.png';
 import ProjectImage2 from '@/images/projects/Codeweavers_Logo.png';
-import ProjectImage3 from '@/images/projects/FlappyBird_NN_250x250.png';
+import ProjectImage3 from '@/images/projects/FlappyBird_NN_762x692.png';
 import ProjectImage4 from '@/images/projects/LazAR-Tag_Promo_250x250.png';
 import ProjectImage5 from '@/images/projects/Midnight Harvest poster.png';
 import ProjectImage6 from '@/images/projects/MineSweeper_250x189.png';
@@ -10,9 +10,9 @@ import Image from "next/image";
 
 const projects = [
     {
-        name: 'Project 1',
+        name: 'FPS RPG',
         info: 'Brief project description',
-        url: 'https://github.com/user/project1',
+        url: 'https://github.com/BlackRece/FPS-RPG',
         image: ProjectImage1,
     },
     {
@@ -22,27 +22,27 @@ const projects = [
         image: ProjectImage2,
     },
     {
-        name: 'Project 3',
+        name: 'Flappy Bird - Neural Network',
         info: 'Brief project description',
-        url: 'https://github.com/user/project3',
+        url: 'https://github.com/BlackRece/FlappyBird_NN',
         image: ProjectImage3,
     },
     {
-        name: 'Project 4',
+        name: 'LazAR Tag',
         info: 'Brief project description',
-        url: 'https://github.com/user/project4',
+        url: 'https://github.com/BlackRece/LazAR-Tag',
         image: ProjectImage4,
     },
     {
-        name: 'Project 5',
+        name: 'Midnight Harvest',
         info: 'Brief project description',
-        url: 'https://github.com/user/project5',
+        url: 'https://github.com/Nine-Byte-Warriors/midnight-harvest',
         image: ProjectImage5,
     },
     {
-        name: 'Project 6',
+        name: 'MineSweeper',
         info: 'Brief project description',
-        url: 'https://github.com/user/project6',
+        url: 'https://github.com/BlackRece/MineSweeper',
         image: ProjectImage6,
     },
 ];
