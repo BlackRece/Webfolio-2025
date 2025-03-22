@@ -1,11 +1,12 @@
-import ProjectImage1 from '../../images/projects/COD_Mod_250x250.png';
-import ProjectImage2 from '../../images/projects/Codeweavers_Logo.png';
-import ProjectImage3 from '../../images/projects/FlappyBird_NN_250x250.png';
-import ProjectImage4 from '../../images/projects/LazAR-Tag_Promo_250x250.png';
-import ProjectImage5 from '../../images/projects/Midnight Harvest poster.png';
-import ProjectImage6 from '../../images/projects/MineSweeper_250x189.png';
-import ProjectImage7 from '../../images/projects/RayTracer_250x250.png';
-import ProjectImage8 from '../../images/projects/RefactaMasta_250x250.png';
+import ProjectImage1 from '@/images/projects/COD_Mod_250x250.png';
+import ProjectImage2 from '@/images/projects/Codeweavers_Logo.png';
+import ProjectImage3 from '@/images/projects/FlappyBird_NN_250x250.png';
+import ProjectImage4 from '@/images/projects/LazAR-Tag_Promo_250x250.png';
+import ProjectImage5 from '@/images/projects/Midnight Harvest poster.png';
+import ProjectImage6 from '@/images/projects/MineSweeper_250x189.png';
+import ProjectImage7 from '@/images/projects/RayTracer_250x250.png';
+import ProjectImage8 from '@/images/projects/RefactaMasta_250x250.png';
+import Image from "next/image";
 
 const projects = [
     {
@@ -73,7 +74,7 @@ export function ProjectGrid() {
                         >
                             {/* Image Section (80% of the button height) */}
                             <div className="flex-1 w-full flex items-center justify-center overflow-hidden">
-                                <img
+                                <Image
                                     src={project.image}
                                     alt={project.name}
                                     className="w-full h-full object-cover"

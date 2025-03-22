@@ -18,7 +18,7 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
-import { ProjectGrid } from './articles/projects'
+import { ProjectGrid } from '@/components/projects'
 
 function Article({ article }) {
   return (
