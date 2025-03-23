@@ -57,7 +57,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-              Hi, I'm Rece - Game Developer with Roots in 8-Bit Programming
+              Hi, I&apos;m Rece - Game Developer with Roots in 8-Bit Programming
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
@@ -69,30 +69,30 @@ export default function About() {
               <p>
                 After cutting my teeth on 8-bit systems, I formalized my skills with a 2:1 in Games
                 Programming from Staffordshire University. My academic work focused on modern C++
-                game development, Unity workflows, and low-level engine programming - but I'll
+                game development, Unity workflows, and low-level engine programming - but I&apos;ll
                 always keep a soft spot for the minimalist elegance of those early home computers.
               </p>
               <p>
                 During my degree, I bridged old and new by recreating classic Spectrum titles with
                 modern physics systems. One particularly rewarding project involved reimagining
-                "Jumping Jack Flash" with a comical character that tumbles over with a physics-based
+                &quot;Jumping Jack Flash&quot; with a comical character that tumbles over with a physics-based
                 ragdoll system, complete with a circle of dazed tweety birds orbiting the fallen
                 avatar - maintaining that classic feel while adding modern cartoonish charm.
               </p>
               <p>
                 My technical strengths lie in gameplay programming and systems architecture.
-                I've developed everything from retro-style pixel-perfect collision systems to
+                I&apos;ve developed everything from retro-style pixel-perfect collision systems to
                 modern AR interaction frameworks. What excites me most is solving the unique
                 challenges that emerge when creative vision meets technical constraints.
               </p>
               <p>
-                When not coding, I'm usually analyzing game design patterns across eras,
+                When not coding, I&apos;m usually analyzing game design patterns across eras,
                 from 8-bit classics to modern AAA titles. I maintain an active GitHub
                 where I experiment with demakes - recreating contemporary game mechanics
                 from Spectrum-style aesthetics.
               </p>
               <p>
-                I'm currently seeking roles where I can apply both my modern technical
+                I&apos;m currently seeking roles where I can apply both my modern technical
                 skills and my appreciation for optimized, efficient code honed through
                 early experiences with hardware limitations.
               </p>
