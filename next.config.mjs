@@ -13,6 +13,8 @@ const nextConfig = {
   images: { unoptimized: true },
   // Add this line to enable static exporting during next build
   output: 'export',
+  basePath: '',
+  assetPrefix: ''
 }
 
 const withMDX = nextMDX({

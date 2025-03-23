@@ -1,12 +1,16 @@
 {
-  "name": "tailwindui-template",
-  "version": "0.1.0",
+  "name": "blackrece-webfolio",
+  "version": "2.0.0",
   "private": true,
+  "homepage": "https://blackrece.co.uk/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "lint": "next lint",
+    "predeploy": "npm run build && npm rum export",
+    "deploy": "gh-pages -d out"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -21,6 +25,7 @@
     "clsx": "^2.1.0",
     "fast-glob": "^3.2.11",
     "feed": "^4.2.2",
+    "gh-pages": "^6.3.0",
     "next": "^14.0.4",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
