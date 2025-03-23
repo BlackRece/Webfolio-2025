@@ -4,8 +4,7 @@ import ProjectImage3 from '@/images/projects/FlappyBird_NN_762x692.png';
 import ProjectImage4 from '@/images/projects/LazAR-Tag_Promo_250x250.png';
 import ProjectImage5 from '@/images/projects/Midnight Harvest poster.png';
 import ProjectImage6 from '@/images/projects/MineSweeper_250x189.png';
-import ProjectImage7 from '@/images/projects/Codeweavers_Logo.png';
-import ProjectImage8 from '@/images/projects/RefactaMasta_250x250.png';
+
 import Image from "next/image";
 import {FaCode} from "react-icons/fa";
 
